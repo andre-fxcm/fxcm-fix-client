@@ -23,7 +23,7 @@
                 <configuration>
                     <mainClass>FIXTradingTester</mainClass>
                     <arguments>
-                        <argument>cfg\testclient1_cw.cfg</argument>
+                        <argument>cfg\automw100k2_client2.cfg</argument>
                     </arguments>
                 </configuration>
             </plugin>

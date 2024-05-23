@@ -339,10 +339,10 @@ public class FIXTradingTester {
             mSessionStatus = aSessionStatus;
             System.out.println("<< Trading Station Status = " + aSessionStatus);
             getAccounts();
-            getOrders();
-            getOpenPositions();
-            getClosedPositions();
-            sendMarketDataRequest(SubscriptionRequestType.SNAPSHOT_UPDATES);
+            //getOrders();
+            //getOpenPositions();
+            //getClosedPositions();
+            //sendMarketDataRequest(SubscriptionRequestType.SNAPSHOT_UPDATES);
         }
 
         @Override
